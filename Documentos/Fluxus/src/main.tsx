@@ -7,11 +7,10 @@ import {
   RouterProvider,
 } from "react-router";
 
-let router = createBrowserRouter([
+const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
-    loader: loadRootData,
+    Component: Login,
   },
 ]);
 
